@@ -1,10 +1,11 @@
 {
-  "name": "@fourcels/vite-plugin-react-pages",
+  "name": "vite-pages-react-router",
   "type": "module",
-  "version": "0.5.0",
+  "version": "0.0.1",
   "description": "File system base react-router plugin for Vite",
   "scripts": {
     "dev": "vite",
+    "build:web": "vite build",
     "build": "tsup-node",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -15,9 +16,9 @@
     "react-router",
     "file-system-based"
   ],
-  "repository": "https://github.com/fourcels/vite-plugin-react-pages",
-  "homepage": "https://github.com/fourcels/vite-plugin-react-pages",
-  "author": "kiyan <fourcels@gmail.com>",
+  "repository": "https://github.com/AndrejNemec/vite-pages-react-router",
+  "homepage": "https://github.com/AndrejNemec/vite-pages-react-router",
+  "author": "Andrej Nemec",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.9.0",

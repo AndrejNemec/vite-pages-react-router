@@ -1,4 +1,4 @@
-# vite-plugin-react-pages
+# vite-pages-react-router
 
 > File system routing for React applications base
 > [react-router](https://github.com/remix-run/react-router),
@@ -9,7 +9,7 @@
 ### Install
 
 ```bash
-pnpm add @fourcels/vite-plugin-react-pages react-router react-router-dom
+pnpm add vite-pages-react-router react-router react-router-dom
 ```
 
 ### Vite config
@@ -17,7 +17,7 @@ pnpm add @fourcels/vite-plugin-react-pages react-router react-router-dom
 Add to your `vite.config.js`:
 
 ```ts
-import pages from "@fourcels/vite-plugin-react-pages";
+import pages from "vite-pages-react-router";
 
 export default {
   plugins: [
