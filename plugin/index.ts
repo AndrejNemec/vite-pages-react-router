@@ -8,7 +8,7 @@ function pagesPlugin(baseDir: string = "src/pages"): Plugin {
     baseDir = baseDir.replace(/^\/+|\/+$/g, "")
     return {
         enforce: "pre",
-        name: 'vite-plugin-react-pages', // required, will show up in warnings and errors
+        name: 'vite-pages-react-router', // required, will show up in warnings and errors
         resolveId(id) {
             if (id === virtualModuleId) {
                 return resolvedVirtualModuleId

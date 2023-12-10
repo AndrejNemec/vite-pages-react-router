@@ -59,7 +59,7 @@ export class Route {
         for (const dirent of dirents) {
             const filePath = path.join(baseDir, dirent.name)
             if (dirent.isDirectory() && !dirent.name.startsWith("_")) {
-                const pathName = dirent.name.trim().toLowerCase()
+                let pathName = dirent.name.trim()
                     .replace(/^\[(\.{3}.+)\]$/, '*')
                     .replace(/^\[\[(.+)\]\]$/, ':$1?')
                     .replace(/^\[(.+)\]$/, ':$1')
